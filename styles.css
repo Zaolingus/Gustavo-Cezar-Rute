@@ -1,9 +1,23 @@
-@import url(styles/header.css);
+@import url(STYLES/header.css);
 :root{
 --cor-de-fundo: #970d0d;
---cor-cabecalho: #52083c;
+--cor-cabecalho: #ffffff;
 }
 body{
 background-color: var(--cor-de-fundo);
 margin: 0;
 }
+.cabecalho{
+    background-color: var(--cor-cabecalho);
+    padding: 1em;
+    }
+    .container{
+    display: flex;
+    align-items: center;
+    }
+    .container imagem, .container frase{
+    padding: 1em;
+    }
+    .container titulo, .container frase{
+    display:none;
+    }
